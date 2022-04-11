@@ -1,0 +1,295 @@
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Outfit:wght@300&family=Spartan:wght@400;500;600&display=swap');
+
+body{
+    background-image: url(./bg-pattern-top-desktop.svg);
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+   font-family: 'Outfit', sans-serif;
+}
+
+.container{
+    position:absolute;
+    margin: 2%;
+    width: 70%;
+    margin-left: 15%;
+
+}
+
+
+.section-1{
+    display: flex;
+}
+
+.item-1 {
+    width: 35%;
+}
+.item-1 h1{
+    color: hsl(300, 43%, 22%);
+    font-family: 'Spartan', sans-serif;
+
+}
+.item-1 p{
+    color: hsl(303, 10%, 53%);
+}
+.item-2{
+    right: 1%; 
+    margin: 30; 
+    float: right;
+    margin-top: 4%;
+    margin-left: 220px;
+}
+.item-2 .first{
+    position: relative;
+    background-color: hsl(300, 24%, 96%);
+    padding: 10px;
+    border-radius: 5px;
+    width:100%;
+    right: 110px;
+
+}
+.item-2 .first span{
+    position: relative;
+    margin-left: 10px;
+    bottom: 3px;
+}
+.item-2 .second{
+    position: relative;
+    background-color: hsl(300, 24%, 96%);
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    right: 80px;
+    margin: 3%;
+
+}
+.item-2 .second span{
+    position: relative;
+    margin-left: 10px;
+    bottom: 3px;
+}
+.item-2 .third{
+    position: relative;
+    background-color: hsl(300, 24%, 96%);
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    right: 30px;
+    margin: 3%;
+
+}
+.item-2 .third span{
+    position: relative;
+    margin-left: 10px;
+    bottom: 3px;
+}
+.item-2 .first img {
+    margin: 2px;
+
+}
+.item-2 .second img {
+    margin: 2px;
+
+}
+.item-2 .second img {
+    margin: 2px;
+
+}
+
+
+.section-2{
+    display: flex;
+    margin-top: 30px;
+
+}
+.section-2 .item-3{
+    position: relative;
+    background-color: hsl(300, 43%, 22%);  
+    border-radius: 10px;
+    margin: 2%;
+    width: 1010px;
+    bottom: 30px;
+    right: 16px;
+    height: 180px;
+
+
+
+
+}
+.section-2 .item-3 .head{
+    display: flex;
+    
+}
+.item-3{
+    position: relative;
+    padding: 18px;
+
+}
+.item-3 .head h3{
+    position: relative;
+    color:  hsl(0, 0%, 100%);
+    margin-left: 10px;
+    bottom: 15px;
+
+}
+.section-2 .item-3 .head p{
+    color:  hsl(333, 80%, 67%);
+
+
+}
+.section-2 .item-3 p{
+    position: relative;
+    bottom: 30px;
+    margin-left: 10px;
+    color:  hsl(300, 24%, 96%);
+      
+
+
+
+}
+.section-2 .item-3 .head img{
+    border-radius: 110px;
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+
+}
+
+
+
+
+
+.section-2 .item-4{
+    position: relative;
+    background-color: hsl(300, 43%, 22%);  
+    border-radius: 10px;
+    margin: 2%;
+    width: 1010px;
+    color: hsl(0, 0%, 100%);
+    bottom: 15px;
+    height: 180px;
+    right: 16px;
+
+
+
+}
+
+.section-2 .item-4 .head{
+    display: flex;
+    
+}
+.item-4{
+    position: relative;
+    padding: 18px;
+    width: 440px;
+
+}
+.item-4 .head h3{
+    position: relative;
+    color:  hsl(0, 0%, 100%);
+    margin-left: 10px;
+    bottom: 15px;
+
+}
+.section-2 .item-4 .head p{
+    color:  hsl(333, 80%, 67%);
+
+
+}
+.section-2 .item-4 p{
+    position: relative;
+    bottom: 30px;
+    margin-left: 10px;
+   
+}
+.section-2 .item-4 .head img{
+    border-radius: 110px;
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+}
+
+.section-2 .item-5{
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 10px;
+    margin: 2%;
+    width: 1010px;
+    color: hsl(0, 0%, 100%);
+    height: 180px;
+    right: 16px;
+}
+.section-2 .item-5 .head{
+    display: flex;
+
+}
+.item-5{
+    position:relative;
+    padding:18px; 
+}
+.item-5 .head h3{
+    position:relative;
+    color:hsl(0, 0%, 100%);
+    margin-left:10px;
+    bottom:15px;
+}
+.section-2 .item-5 .head p{
+    color:hsl(333,80%,67%);    
+}
+.section-2 .item-5 p{
+    position: relative;
+    bottom: 30px;
+    margin-left: 10px;
+   
+
+
+
+}
+.section-2 .item-5 .head img{
+    border-radius: 110px;
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+
+}
+@media(max-width:700px){
+    .item-1{
+        left: 0;
+        width: 100%;
+    }
+    .item-2{
+        position: absolute;
+        top: 86%;
+        width: 100%;
+        left: -160px;
+    }
+    .section-2{
+        position: relative;
+        top: 170px;
+    }
+    .section-2 .item-3{
+        position:absolute;
+        top: -35px;
+        width: 90%;
+       
+    }
+    .section-2 .item-4{
+        position:absolute;
+        top: 200px;
+        width: 90%;
+
+    }
+    .section-2 .item-5{
+        position: absolute;
+        top:450px ;
+        width: 90%;
+        border-radius: none;
+    }
+
+    
+}
+
+
+
